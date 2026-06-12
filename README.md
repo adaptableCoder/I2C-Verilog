@@ -2,7 +2,7 @@
 This repository contains a robust, synthesizable I2C Master module written in SystemVerilog. The module serves as a communication bridge between a host system (such as an FPGA or microcontroller) and external I2C peripherals (slaves).
 
 The architecture utilizes a continuous SCL generator. Internally using synchronous edge-detectors (`scl_fall` and `scl_rise`). This allows the state machine to predictably shift and sample data in exact alignment with the physical I2C clock edges.
-> For more details and indepth knowledge about the I2C protocol, please refer to the official I2C specification: https://www.nxp.com/docs/en/user-guide/UM10204.pdf, also put in this repository as a pdf [NXP_I2C_Manual.pdf](docs\NXP_I2C_Manual.pdf)
+> For more details and indepth knowledge about the I2C protocol, please refer to the official I2C specification: https://www.nxp.com/docs/en/user-guide/UM10204.pdf, also put in this repository as a pdf [NXP_I2C_Manual.pdf](docs/NXP_I2C_Manual.pdf)
 
 ## Features
 * **Configurable Clock Rates:** The main system clock frequency and the target I2C bus frequency are fully parameterizable.
@@ -76,4 +76,4 @@ The module generates the `scl` clock by dividing the main `clk` and uses 1-cycle
 4. GTKWave will open automatically to display the waveform of the simulation, allowing you to visually verify the timing and correctness of the I2C transactions.
 
 # Output Waveform
-![Output Waveform Picture](docs\Waveform.png)
+![Output Waveform Picture](docs/Waveform.png)
