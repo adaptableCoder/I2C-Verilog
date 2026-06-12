@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Fri Jun 12 14:37:36 2026
+[*]
+[dumpfile] "C:\Users\Atharv Mehrotra\Desktop\I2C\wave.vcd"
+[dumpfile_mtime] "Fri Jun 12 14:35:16 2026"
+[dumpfile_size] 8452092
+[savefile] "C:\Users\Atharv Mehrotra\Desktop\I2C\wave.gtkw"
+[timestart] 39200000
+[size] 1536 889
+[pos] -1 -1
+*-23.753307 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_i2c_master.
+[sst_width] 197
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 254
+@28
+tb_i2c_master.dut.ack_error
+@22
+tb_i2c_master.dut.addr_shift_reg[7:0]
+tb_i2c_master.dut.bit_count[3:0]
+@28
+tb_i2c_master.dut.busy
+tb_i2c_master.dut.clk
+@22
+tb_i2c_master.dut.count[7:0]
+tb_i2c_master.dut.data_in[7:0]
+tb_i2c_master.dut.data_out[7:0]
+tb_i2c_master.dut.data_shift_reg[7:0]
+@28
+tb_i2c_master.dut.done
+tb_i2c_master.dut.reset
+tb_i2c_master.dut.scl
+tb_i2c_master.dut.scl_fall
+tb_i2c_master.dut.scl_prev
+tb_i2c_master.dut.scl_rise
+tb_i2c_master.dut.sda_drive_low
+tb_i2c_master.dut.sda
+tb_i2c_master.dut.sda_in
+@22
+tb_i2c_master.dut.slave_addr[6:0]
+@28
+tb_i2c_master.dut.start
+@22
+tb_i2c_master.dut.state[3:0]
+@29
+tb_i2c_master.dut.write
+[pattern_trace] 1
+[pattern_trace] 0
